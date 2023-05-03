@@ -1,0 +1,58 @@
+import { IPackage, Token } from "../_types_";
+
+export const packages: IPackage[] = [
+    {
+        id: 0,
+        key: 'string',
+        name: 'BNB PACKAGE 01',
+        amount: 1000,
+        bg: 'bnb-bg.jpeg',
+        icon: 'bnb.png',
+        token: Token.BNB,
+    },
+    {
+        id: 1,
+        key: 'string',
+        name: 'BNB PACKAGE 02',
+        amount: 2000,
+        bg: 'bnb-bg.jpeg',
+        icon: 'bnb.png',
+        token: Token.BNB,
+    },
+    {
+        id: 2,
+        key: 'string',
+        name: 'BNB PACKAGE 03',
+        amount: 3000,
+        bg: 'bnb-bg.jpeg',
+        icon: 'bnb.png',
+        token: Token.BNB,
+    },
+    {
+        id: 3,
+        key: 'string',
+        name: 'USDT PACKAGE 01',
+        amount: 1000,
+        bg: 'usdt-bg.jpeg',
+        icon: 'usdt.png',
+        token: Token.USDT,
+    },
+    {
+        id: 4,
+        key: 'string',
+        name: 'USDT PACKAGE 02',
+        amount: 2000,
+        bg: 'usdt-bg.jpeg',
+        icon: 'usdt.png',
+        token: Token.USDT,
+    },
+    {
+        id: 5,
+        key: 'string',
+        name: 'USDT PACKAGE 03',
+        amount: 3000,
+        bg: 'usdt-bg.jpeg',
+        icon: 'usdt.png',
+        token: Token.USDT,
+    },
+]
