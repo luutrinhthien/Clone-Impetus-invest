@@ -7,7 +7,7 @@ import { IWalletInfo, IRate, IPackage } from '../_types_';
 declare var window: any;
 import Packages from './Packages';
 
-export default function index() {
+export default function Index() {
     const [wallet, setWallet] = React.useState<IWalletInfo>()
     const [web3Provider, setWeb3Provider] = React.useState<ethers.providers.Web3Provider>()
 
